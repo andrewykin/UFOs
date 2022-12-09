@@ -25,5 +25,9 @@ Below are some examples of filter use:
   - ![multiple_filters](Resources/filtered_multiple.png)
 
 ### Summary
-- Summary addresses one drawback of this webpage
-- Summary addresses two additional recommendations for further development
+- Drawbacks: 
+  - The filters take any input, even if it is not in the data, resulting in empty tables if the user does not choose correctly. The filters are also case sensitive, which will return 0 results, even if the filter chosen has data.
+    - For example, if I search "los angeles" under the city filter, I will get 0 results.
+- Recommendations:
+  - Make the filter bars, not case sensitive to improve user experience & reduce potential frustrations.
+  - Adjust the filters to show only possible outcomes in the data via some kind of auto-fill function or drop down menu option.
